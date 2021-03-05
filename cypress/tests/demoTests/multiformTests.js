@@ -13,7 +13,7 @@ describe('Login page user login tests', () => {
 	});
 
 	context('Login page cookies test', () => {
-		it('When accept Cookies Then checkCookiesNotVisible Should check if cookies warning is not visible', () => {
+		it('WHEN user go to the profile page AND fill profile with correct data THEN go to interests tab AND selects one of the console options THEN go to payments tab AND click submit button SHOULD see correct alert popup with correct text', () => {
 			multiformPage.fillProfileOptions().then(() => {
 				multiformPage.interestsOptions().then(() => {
 					multiformPage.paymentOptions();
