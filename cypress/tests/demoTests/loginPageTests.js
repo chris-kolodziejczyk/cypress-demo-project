@@ -14,7 +14,7 @@ describe('Login page user login tests', () => {
 	});
 
 	context('Login page cookies test', () => {
-		it('When user go to the login page THEN logs in with correct data SHOULD see the visible logout link AND the header of the home page should meet requirements', () => {
+		it('WHEN user go to the login page THEN logs in with correct data SHOULD see the visible logout link AND the header of the home page should meet requirements', () => {
 			loginPage.login();
 			mainPage.checkLoginState();
 		});
