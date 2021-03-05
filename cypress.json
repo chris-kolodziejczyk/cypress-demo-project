@@ -1,0 +1,77 @@
+{
+  "animationDistanceThreshold": 5,
+  "blockHosts": null,
+  "baseUrl": "http://cypress-demo-project-bug.",
+  "browsers": [
+    {
+      "channel": "stable",
+      "displayName": "Chrome",
+      "family": "chromium",
+      "majorVersion": 88,
+      "name": "chrome",
+      "path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "version": "88.0.4324.182"
+    },
+    {
+      "channel": "stable",
+      "displayName": "Firefox",
+      "family": "firefox",
+      "info": "Firefox support is currently in beta! You can help us continue to improve the Cypress + Firefox experience by [reporting any issues you find](https://on.cypress.io/new-issue).",
+      "majorVersion": 85,
+      "name": "firefox",
+      "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "version": "85.0.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1"
+    },
+    {
+      "channel": "stable",
+      "displayName": "Edge",
+      "family": "chromium",
+      "majorVersion": 88,
+      "name": "edge",
+      "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "version": "88.0.705.74"
+    }
+  ],
+  "env": {
+    "url": "way2automation"
+  },
+  "chromeWebSecurity": true,
+  "defaultCommandTimeout": 4000,
+  "execTimeout": 60000,
+  "fileServerFolder": "",
+  "fixturesFolder": "cypress/fixtures",
+  "hosts": null,
+  "ignoreTestFiles": "*.hot-update.js",
+  "integrationFolder": "cypress/tests",
+  "modifyObstructiveCode": true,
+  "nodeVersion": "system",
+  "numTestsKeptInMemory": 50,
+  "pageLoadTimeout": 60000,
+  "pluginsFile": "cypress/plugins",
+  "port": null,
+  "projectId": "null",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results/reports",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "screenshotsFolder": "cypress/results/screenshots",
+  "supportFile": "cypress/support",
+  "taskTimeout": 60000,
+  "testFiles": "**/*.*",
+  "trashAssetsBeforeRuns": true,
+  "userAgent": null,
+  "video": false,
+  "videoCompression": 32,
+  "videoUploadOnPasses": true,
+  "videosFolder": "cypress/videos",
+  "viewportHeight": 768,
+  "viewportWidth": 1366,
+  "waitForAnimations": true,
+  "watchForFileChanges": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "kingtests",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web-chrome": "node demo-run.js -d -c --uat",
+    "chrome-galaxys5": "node demo-run.js -m -c --galaxys5 --uat",
+    "chrome-ipad": "node demo-run.js -t -c --ipad --uat",
+    "web-firefox": "node demo-run.js -d -f --uat",
+    "firefox-galaxys5": "node demo-run.js -m -f --galaxys5 --uat",
+    "firefox-ipad": "node demo-run.js -t -f --ipad --uat",
+    "web-edge": "node demo-run.js -d -e --uat",
+    "edge-galaxys5": "node demo-run.js -m -e --galaxys5 --uat",
+    "edge-ipad": "node demo-run.js -t -e --ipad --uat"
+  },
+  "authors": [
+    {
+      "name": "Chris Kolodziejczyk",
+      "email": "krzysztof.kolodziejczyk21cn@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/cypress": ">=7.0.3",
+    "cypress": ">=6.6.0",
+    "cypress-failed-log": ">=2.9.1",
+    "eslint": ">=7.19.0",
+    "eslint-plugin-cypress": ">=2.11.2",
+    "mocha": ">=8.2.1",
+    "mochawesome": ">=6.2.1",
+    "mochawesome-report-generator": ">=5.1.0",
+    "path": ">=0.12.7"
+  }
+}
