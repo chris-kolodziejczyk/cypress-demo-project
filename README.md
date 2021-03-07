@@ -31,17 +31,26 @@ The configuration has implemented functions that relate directly to the startup 
 
 - In order to run tests, again using the terminal from the main project directory we run the selected script from the **package.json** file:
 
-  - npm run web-chrome **// The tests will be run in the chrome browser in full desktop resolution**
-  - npm run chrome-galaxys5 **// The tests will be run in the chrome browser in galaxy s5 device**
-  - npm run chrome-ipad **// The tests will be run in the chrome browser in ipad device**
-  - npm run web-firefox **// The tests will be run in the firefox browser in full desktop resolution**
-  - npm run firefox-galaxys5 **// The tests will be run in the firefox browser in galaxy s5 device**
-  - npm run firefox-ipad **// The tests will be run in the firefox browser in ipad device**
-  - npm run web-edge **// The tests will be run in the edge browser in full desktop resolution**
-  - npm run edge-galaxys5 **// The tests will be run in the edge browser in galaxy s5 device**
-  - npm run edge-ipad **// The tests will be run in the edge browser in ipad device**
+  - npm run web-chrome
+    **// The tests will be run in the chrome browser in full desktop resolution**
+  - npm run chrome-galaxys5
+    **// The tests will be run in the chrome browser in galaxy s5 device**
+  - npm run chrome-ipad
+    **// The tests will be run in the chrome browser in ipad device**
+  - npm run web-firefox
+    **// The tests will be run in the firefox browser in full desktop resolution**
+  - npm run firefox-galaxys5
+    **// The tests will be run in the firefox browser in galaxy s5 device**
+  - npm run firefox-ipad
+    **// The tests will be run in the firefox browser in ipad device**
+  - npm run web-edge
+    **// The tests will be run in the edge browser in full desktop resolution**
+  - npm run edge-galaxys5
+    **// The tests will be run in the edge browser in galaxy s5 device**
+  - npm run edge-ipad
+    **// The tests will be run in the edge browser in ipad device**
 
-        **The tests will be run successively**
+          **The tests will be run successively**
 
 # Launching the Cypress tool working window
 
