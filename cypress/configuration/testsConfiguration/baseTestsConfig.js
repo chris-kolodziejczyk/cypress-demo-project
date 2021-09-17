@@ -8,11 +8,11 @@ export default class BaseTestsConfig {
 		params.pageClassObj.visitPage(params.endpoint);
 
 		if (Cypress.env().isMobile) {
-			console.log('Akcje dla wersji mobilnej');
+			console.log('Actions for the mobile version');
 		} else if (Cypress.env().isTablet) {
-			console.log('Akcje dla tabletu');
+			console.log('Actions for the tablet');
 		} else {
-			console.log('Akcje dla desktopu i innych');
+			console.log('Actions for desktop and others');
 		}
 	}
 }
